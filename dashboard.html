@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Create a New Webpage</h2>
+            <form id="create-page-form">
+                <label for="page-title">Page Title</label>
+                <input type="text" id="page-title" name="page-title" required>
+
+                <label for="page-content">Page Content</label>
+                <textarea id="page-content" name="page-content" rows="4" required></textarea>
+
+                <button type="submit">Create Page</button>
+            </form>
+        </section>
+        <section>
+            <h2>Edit Your Pages</h2>
+            <ul id="page-list">
+                <!-- List of created pages will appear here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Website Creator</p>
+    </footer>
+</body>
+</html>
